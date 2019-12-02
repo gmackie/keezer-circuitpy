@@ -14,7 +14,10 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+
+# Including our deps since we are using CircuitPython
+# lib/
+
 lib64/
 parts/
 sdist/
@@ -102,3 +105,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# vscode
+*.code-workspace
